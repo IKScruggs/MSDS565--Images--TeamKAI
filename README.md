@@ -1,33 +1,38 @@
-# MSDS565--Images--TeamKAI
+# MSDS565-Images-TeamKAI
 
 ## Overview
 This project implements an end-to-end CRISP-DM computer vision pipeline using a custom web-scraped image dataset. It covers data collection, manual cleaning and exploratory data analysis (EDA), transfer learning across pretrained Keras applications of varying sizes, model interpretability (Saliency, SmoothGrad, and Grad-CAM), and deployment via a live Streamlit web application.
 
 ---
 
+
 ## Repository Structure
+
+The following represents the required repository structure. Project files will be added as they are completed.
+
 ```text
-MSDS565-Images-<TeamKAI>/
+MSDS565-Images-TeamKAI/
 ├── README.md
 ├── environment.yml
 ├── data/
-│   └── P2_manifest.csv                  # Record of scraped URLs, labels, and cleaning status (NO images)
+│   └── P2_manifest.csv
 ├── models/
-│   ├── P2_N3_<small_app>.keras          # Trained linear probe for small model
-│   ├── P2_N3_<medium_app>.keras         # Trained linear probe for medium model
-│   ├── P2_N3_<large_app>.keras          # Trained linear probe for large model
-│   └── [label_mapping_file]             # Saved class index mapping
+│   ├── P2_N3_<application>.keras
+│   └── [label_mapping_file]
 ├── notebooks/
-│   ├── ddgs_scraper.py                  # Provided scraping module
-│   ├── image_explainers.py              # Provided xAI module
-│   ├── P2_Images-1_Scrape_<TeamName>.ipynb
-│   ├── P2_Images-2_Preprocessing_<TeamName>.ipynb
-│   ├── P2_Images-3_TransferLearning_<TeamName>.ipynb
-│   └── P2_Images-4_xAI_<TeamName>.ipynb
+│   ├── ddgs_scraper.py
+│   ├── image_explainers.py
+│   ├── P2_Images-1_Scrape_TeamKAI.ipynb
+│   ├── P2_Images-2_Preprocessing_TeamKAI.ipynb
+│   ├── P2_Images-3_TransferLearning_TeamKAI.ipynb
+│   └── P2_Images-4_xAI_TeamKAI.ipynb
 └── app/
-    ├── image_explainers.py              # Copy of xAI module for Streamlit deployment
-    └── P2_Images-5_App_<TeamName>.py    # Streamlit web application
+    ├── image_explainers.py
+    └── P2_Images-5_App_TeamKAI.py
 ```
+
+Scraped images, cleaned images, and preprocessed image arrays are stored locally outside the GitHub repository. Only the dataset manifest is committed to the `data/` folder.
+  ```
 
 ---
 
