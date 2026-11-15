@@ -1,0 +1,7 @@
+{
+  "altocumulus": 0,
+  "cirrus": 1,
+  "cumulonimbus": 2,
+  "cumulus": 3,
+  "stratus": 4
+}
