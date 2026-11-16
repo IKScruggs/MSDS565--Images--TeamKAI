@@ -2,7 +2,7 @@
 # MSDS565-Images-TeamKAI
 
 **Course:** MSDS 565 — Project 2: Image Classification  
-**Team:** TeamKAI — KeiTonia, Ashley, India
+**Team:** TeamKAI — KeiTonyia, Ashley, India
 
 ## Overview
 
