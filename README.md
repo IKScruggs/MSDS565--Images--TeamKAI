@@ -524,19 +524,4 @@ The project also illustrates how explainable AI techniques can support further i
 
 ---
 
-## TeamKAI
 
-**Course:** MSDS 565 — Predictive Modeling and Analytics
-
-**Team Members:**
-
-- KeiTonia
-- Ashley
-- India
-
----
-
-**Project Repository:**  
-https://github.com/IKScruggs/MSDS565--Images--TeamKAI
-
-**Repository Visibility:** Private — authorized access required.
